@@ -1,0 +1,139 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px){
+   .flex{
+       display: flex;
+       flex-direction: column;
+   }
+   .div1{
+       width: 100%;
+       margin-bottom: 40px;
+       text-align: center;
+   }
+   .p2{
+       font-size: 40px;
+       margin-top: 20%;
+   }
+   .p3{
+       font-size: 17px;
+   }
+   .image-hero{
+       display: none;
+   }
+   .hover-btn{
+       margin: auto;
+   }
+   .logo{
+       margin-top: 1%;
+   }
+   .sec1 .title-sections{
+       font-size: 30px;
+       margin-top: -7%;
+       margin-bottom: 15%;
+   }
+   .dv{
+       margin-bottom: 4%;
+   }
+   .dest{
+       margin-bottom: 5%;
+   }
+   .sec3 .title-sections , .sec1 .title-sections,.sec2 .title-sec2 , .test{
+       font-size: 30px;
+   }
+   .contact{
+       font-size: 17px;
+   }
+   .btn-social{
+     margin-left: 0.5%;
+   }
+   .dv1{
+       margin-top: 3%;
+   }
+   .carousel-indicators{
+    position: static;
+    margin-top: 100%;
+   }
+}
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .div1{
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .p2{
+        font-size: 40px;
+        margin-top: 20%;
+    }
+    .p3{
+        font-size: 17px;
+    }
+    .image-hero{
+        display: none;
+    }
+    .hover-btn{
+        margin: auto;
+    }
+    .logo{
+        margin-top: 1%;
+    }
+    .sec1 .title-sections{
+        font-size: 30px;
+        margin-top: -7%;
+        margin-bottom: 15%;
+    }
+    .dv{
+        margin-bottom: 4%;
+    }
+    .dest{
+        margin-bottom: 5%;
+    }
+    .sec3 .title-sections , .sec1 .title-sections,.sec2 .title-sec2 , .test{
+        font-size: 30px;
+    }
+    .contact{
+        font-size: 17px;
+    }
+    .btn-social{
+        margin-left: 0.5%;
+       
+    }
+    .dv1{
+        margin-top: 3%;
+    }
+    .carousel-indicators{
+        position: static;
+        margin-top: 85%;
+    }
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .p2{
+        font-size: 29px;
+        margin-top: 20%;
+    }
+    .dv1{
+        margin-top: 3%;
+    }
+    .carousel-indicators{
+        position: static;
+        margin-top: 50%;
+    }
+    .div1{
+        padding-top: 5%;
+        width: 83%;
+        height: 300px;
+    }
+    .image-hero{
+        width: 100%;
+        height: auto;
+        margin-top: 30%;
+    }
+  
+}
